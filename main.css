@@ -38,6 +38,7 @@ font-weight: bold;
 .nav-links a
 {
   text-decoration: none;
+  color: rgb( 255, 255, 255 );
   
 }
 
@@ -45,54 +46,72 @@ font-weight: bold;
 {
   
   text-align: center;
+  padding-bottom: 10%;
   padding-top: 5%;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 5%;
+  
 }
 
 .nav-text
 {
   font-weight: bold;
   
-  font-size: 30px;
+  font-size: 35px;
   color: rgb( 247, 243, 234 );
   margin-left: auto;
   margin-right: auto;
-  
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
 }
-.header-btn
+.gotoform
 {
   color: rgb( 255, 255, 255 );
   background-color: rgb( 235, 125, 75 );
   font-weight: bold;
-  padding: 1%;
+  padding:1% 5%;
+  max-width: 300px;
+  
+  
 }
 
-
-
-.WORK_WITH_US_ {
-  font-size: 0.473cm;
-  font-family: "TitilliumWeb";
-  
-  
-  line-height: 1.455;
-  
-  -moz-transform: matrix( 1.34293269230769, 0, 0, 1.34293269230769, 0, 0);
-  -webkit-transform: matrix( 1.34293269230769, 0, 0, 1.34293269230769, 0, 0);
-  position: absolute;
-  left: 23.1422222222222cm;
-  top: 14.4286111111111cm;
-  width: 4.586cm;
-  height: 0.494cm;
-  z-index: 306;
-}
 
 .services 
 {
-    display:block;
+    
     color: white;
 background-color: rgb( 23, 194, 164 );
+}
+.section-h2
+{
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 1%;
+
+}
+.services-list
+{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+ 
+}
+.services-list li
+{
+  list-style: none;
+  text-align:center;
+  max-width:190px;
+}
+.services-list a
+{
+text-decoration:none;
+}
+.services-img
+{
+  overflow:hidden;
+  height:100px;
+  width:100px;
+  
 }
 
 
